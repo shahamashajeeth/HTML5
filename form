@@ -1,0 +1,36 @@
+<!doctype= html>
+<html>
+<head>
+<Title>Uki Student Application Form</Title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<script src="action.js"></script>
+</head>
+<body>
+<h1>Uki-Student</h1><br>
+<form style="background-color:lightblue;>
+FIRST NAME:<input type="text" name="firstname">
+<br>
+LAST NAME:<input type="text" name="lastname">
+<br>
+REG.NO:<input type="number" name="reg.no">
+<br>
+Date of birth:<input type="text" name="dateofbirth">
+<br>
+Genter<br>
+<input type="radio" name="genter" checked>Male<br>
+<input type="radio" name="genter" value="female">Female<br>
+Fav.Subject:<br>
+<input type="checkbox" name="course" value="Programming">Programming
+<input type="checkbox" name="course" value="Personalcoaching">Personal coaching
+<input type="checkbox" name="course" value="English">English
+<input type="checkbox" name="course" value="Business">Business<br>
+Feedback:<br>
+<textarea name="message" rows="20"cols="30">
+</textarea>
+<br>
+<input type="Submit" value="Submit">
+<input type="Reset" value="Reset">
+</form>
+</body>
+</html>

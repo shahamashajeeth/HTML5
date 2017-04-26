@@ -1,0 +1,58 @@
+<!doctype= html>
+<html>
+<head>
+<title>My First Web Page</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<script src="action.js"></script>
+</head>
+<body>
+<h1>Welcome to Uki</h1>
+<p>
+<img src="Helloworld.jpg" align="left" height="250" width="250" alt="HELLO WORLD">
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>
+Hello World
+This is my first web page on Uki
+</p>
+<form>
+<pre>
+First name:
+<input type="text" name="firstname">
+<br>
+Last name:
+<input type="text" name="lastname">
+<br>
+Animal name:
+<input type="text" name="lastname" value="Mouse"><br>
+User password:</pre>
+<input type="password" name="psw"><br>
+<input type="radio" name="genter" checked> Male<br>
+<input type="radio" name="genter" value="female">Female<br>
+Course: <select name="course">
+<option value="programming">Progrmming</option>
+<option value="Business">Business</option>
+<option value="English">English</option>
+<option value="Personal coaching">Personl coaching</option>
+</select>
+<br><br>
+<textarea name="message"rows="10"cols="30">The cat was playing in the garden: </textarea>
+<input type="submit"value="submit">
+
+</form>
+</body>
+</html>
